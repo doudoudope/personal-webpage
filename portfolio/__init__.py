@@ -10,7 +10,7 @@ def create_app():
             "hero": "img/habit-tracking-hero.png",
             "categories": ["python", "web"],
             "slug": "habit-tracking",
-            "prod": "https://udemy.com",
+            "prod": "https://daily-tracker-sarah.herokuapp.com/",
         },
         {
             "name": "Personal finance tracking app with React",
