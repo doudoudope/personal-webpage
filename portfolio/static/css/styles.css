@@ -115,7 +115,8 @@ body {
 }
 
 .project-card__image {
-  max-width: 100%;
+  max-width: 500px;
+  height: 200px;
   margin-bottom: 1rem;
   transition: transform 0.2s ease-in-out;
 }
@@ -142,16 +143,17 @@ body {
 .categories {
   display: flex;
   padding: 0;
-  margin: 0 0 0.75rem;
+  margin: 0 0 0.9rem;
   color: #3d84a3;
   list-style: none;
   line-height: 1.45;
   text-transform: uppercase;
   font-size: 1.1rem;
-  letter-spacing: 0.075rem;
+  letter-spacing: 0.08rem;
 }
 
 .hero {
+  height: 300px;
   width: 100%;
   margin-bottom: 1.5rem;
 }

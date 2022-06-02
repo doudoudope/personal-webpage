@@ -6,25 +6,26 @@ def create_app():
     projects = [
         {
             "name": "Habit tracking app with Python and MongoDB",
-            "thumb": "img/habit-tracking.png",
+            "thumb": "img/habit.png",
             "hero": "img/habit-tracking-hero.png",
             "categories": ["python", "web"],
             "slug": "habit-tracking",
             "prod": "https://daily-tracker-sarah.herokuapp.com/",
         },
         {
-            "name": "Personal finance tracking app with React",
-            "thumb": "img/personal-finance.png",
-            "hero": "img/personal-finance.png",
-            "categories": ["react", "javascript"],
-            "slug": "personal-finance",
+            "name": "Microblog app with Python and MongoDB",
+            "thumb": "img/microblog.png",
+            "hero": "img/microblog-hero.png",
+            "categories": ["javascript", "web"],
+            "slug": "microblog",
+            "prod": "https://sarah-microblog-app.herokuapp.com/"
         },
         {
-            "name": "REST API Documentation with Postman and Swagger",
-            "thumb": "img/rest-api-docs.png",
+            "name": "Movie watchlist app with Javascript",
+            "thumb": "img/movie.png",
             "hero": "img/rest-api-docs.png",
-            "categories": ["writing"],
-            "slug": "api-docs",
+            "categories": ["javascript"],
+            "slug": "movie-watchlist",
         },
     ]
 
