@@ -16,7 +16,7 @@ def create_app():
             "name": "Microblog app with Python and MongoDB",
             "thumb": "img/microblog.png",
             "hero": "img/microblog-hero.png",
-            "categories": ["javascript", "web"],
+            "categories": ["python", "web"],
             "slug": "microblog",
             "prod": "https://sarah-microblog-app.herokuapp.com/"
         },
