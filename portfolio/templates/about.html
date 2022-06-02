@@ -1,6 +1,7 @@
 {% extends 'index.html' %}
 {% block content %}
     <main class="main main--about">
+        <h2>About me</h2>
         <p>
             Hi, I'm Sarah! I live in Seattle. Now I am pursuing a master degress in NEU. 
             I choose the Align CS program because it corresponds to my interests and goals.        
@@ -13,13 +14,6 @@
             majoring in enterprise management. 
             From my Ph.D. research experiences, I realized our world is so profoundly 
             benefited from computer science, and we could achieve unlimited with it. 
-            For example, when we are not familiar with a phenomenon in management research, 
-            we usually need to conduct qualitative research. We need to interview hundreds or thousands 
-            of different people and record their opinions. 
-            The next step is to do text analysis and extract the key points. 
-            Using Natural Language Processing techniques, 
-            we can solve this problem with more efficiency 
-            and extract the key points with great accuracy. 
             I am fascinated by such kind of advanced techniques, and I wish to learn more.
         </p>
         <p>
@@ -27,11 +21,33 @@
             I got married to my husband this year in 2020. 
             He works as a software engineer in Seattle. 
             I think this kind of transfer is right as I can still take advantage of my Ph.D. 
-            experience and learn more technical skills, 
-            which I have an interest in. With my expertise in conducting top-level 
-            research and analyzing complex data with solid math fundamentals, 
-            I have the opportunity to solve larger-scale problems by getting 
-            the knowledge of computer science, especially data-related technologies.
+            experience and learn more technical skills.
         </p>
+        <h2>My learning experience</h2>
+        <style>
+            table, th, td {
+              border:1px solid black;
+            }
+        </style>
+        <table style="width:100%">
+        <tr>
+            <th>University</th>
+            <th>Time</th>
+            <th>Degree</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Northeastern University</td>
+            <td>2021.9 - Now</td>
+            <td>Master</td>
+            <td>Seattle</td>
+        </tr>
+        <tr>
+            <td>Peking University</td>
+            <td>2014.9 - 2020.7</td>
+            <td>Ph.D</td>
+            <td>China</td>
+        </tr>
+        </table>
     </main>
 {% endblock %}
